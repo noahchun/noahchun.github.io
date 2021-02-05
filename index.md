@@ -1,37 +1,107 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/noahchun/noahchun.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/noahchun/noahchun.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Noah's Homepage</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+<h1>Noah's Homepage</h1>
+<a href="http://www.cs.gsu.edu/"><span class="ingredient">Georgia State</span> <span class="ingredient">Computer Science</span> Department's Home Page</a><br>
+<img src = "headshot.jpg" alt="Headshot1" width = "450" height = "550">
+<h1>Noah Chun</h1>
+<h2>The quote is at the bottom.</h2>
+<table>
+	<tr>
+		<th>Assignments</th>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/home.html">Assignment 1</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Assignment 2</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Assignment 3</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Assignment 4</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Assignment 5</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Assignment 6</a></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th>Projects</th>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Project1</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Project 2</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Project 3</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://codd.cs.gsu.edu/~nchun2/dummylink.html">Final: All Frameworks</a></td>
+	</tr>
+</table>
+<h4>Interests</h4>
+	<ul>
+		<li><span class="ingredient">Gundam</span> Model Kits
+			<ul>
+				<li>High Grade and Real Grade Kits</li>
+				<li><a href="https://www.gundamplanet.com/">Gundam Planet Website</a></li>
+			</ul>
+		</li>
+		<li>Gaming
+			<ul>
+				<li><a href="https://store.steampowered.com/">Steam Website</a></li>
+			</ul>
+		</li>
+		<li>K-Pop
+			<ul>
+				<li>Favorite group: (G)I-DLE</li>
+			</ul>
+		</li>
+	</ul>
+<h4>Top <span class="ingredient">Movies</span></h4>
+	<ul>
+		<li>Pacific Rim</li>
+		<li>Star Wars: Revenge of the Sith</li>
+		<li>Spider-Man 3</li>
+	</ul><br/>
+<ul id = "first">
+    <li>
+        <ul>
+            <li class = "bold"><br/>Education</li>
+				<li>Centennial High School</li>
+                <li><span class="ingredient">Georgia State</span> University</li>
+            </ul><br/>
+        </li>
+        <li>
+            <ol>
+                <li class = "bold">Jobs</li>
+                <li><span>Home Depot</span></li>
+            </ol>
+        </li>
+    </ul>
+<div class="stevejobs">
+    <img src="stevejobs.jpg" alt="Steve Jobs">
+    <p>"Your time is limited, so don’t waste it living someone else’s life." - Steve Jobs</p>
+</div>
+<div class="rightlist">
+	<h4>Websites of Interest</h4>
+    <ul>
+		<li><a href="https://www.usagundamstore.com/">USA Gundam Store</a></li>
+		<li><a href="https://www.g2a.com/">G2A(Site to buy Games)</a></li>
+		<li><a href="https://www.twitch.tv/">Twitch.tv</a></li>
+	</ul>
+</div>
+</body>
+</html>
