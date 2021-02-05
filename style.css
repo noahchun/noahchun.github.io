@@ -1,0 +1,100 @@
+body {
+	background-image: url(websitebackground.jpg);
+	font-family: sans-serif;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+h2 {
+    min-height: 50px;
+    padding-bottom: 50px;
+}
+p {
+	color: red;
+}
+a {
+    text-align:center;
+    display:block;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+table { 
+	width: 100px; 
+	height: 100px; 
+	display: inline-block; 
+} 
+
+ul {
+	top: 300px;
+	display: table;
+	margin: 0 auto;
+}
+
+ol {
+	top: 300px;
+	display: table;
+	margin: 0 auto;
+}
+
+lh{
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline-block; 
+}
+
+h4 {
+	text-decoration: underline;
+	text-align:center;
+}
+.stevejobs{
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+	text-align: center;
+	font: small-caps bold 1.2rem sans-serif;
+	
+}
+
+.rightlist{
+	position: absolute; 
+	top: 800px; 
+	width: 200px; 
+	right: 300px;
+	height: 25px;
+}
+
+a:hover {
+	color: orange;
+}
+
+span.ingredient {
+    color: red;
+	font-weight:bold
+}
+
+#first{
+	margin-left: auto;
+    margin-right: auto;
+    width: 15em
+
+}
+
+.bold{
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: underline;
+}
